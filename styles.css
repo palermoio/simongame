@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+}
+
+#game-title {
+    font-family: 'Audiowide', cursive;
+    font-size: 5rem;
+    margin: 5% auto 2% auto;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.btn {
+    height: 215px;
+    width: 215px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 15px solid black;
+    border-radius: 50%;
+}
+
+.btn-pressed {
+    border-color: gainsboro;
+    color: cornsilk;
+}
+
+.btn-pressed-fail {
+    border-color: indianred;
+    background-color: red;
+    color: pink;
+}
+
+.btn-text {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 4rem;
+}
+
+.red {
+    background-color: crimson;
+}
+
+.yellow {
+    background-color: darkkhaki;
+}
+
+.blue {
+    background-color: mediumslateblue;
+}
+
+.green {
+    background-color: seagreen;
+}
+
+#game-status {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    margin: 2%;
+}
+
+#scores {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+    margin: 2%;
+}
+
+#instructions {
+    font-family: 'Audiowide', cursive;
+    font-size: 1.2rem;
+    width: 40%;
+    margin: auto;
+}
+
